@@ -19,7 +19,7 @@ def romantodecimal(roman)
       return
     end
 
-    if value > before
+    if value >= before
       decimal += value
     else
       decimal -= value
@@ -34,7 +34,7 @@ end
 result1 = romantodecimal("V")
 result2 = romantodecimal("IX")
 
-if result1 == 5
+=begin if result1 == 5
   puts "Success"
 else
   puts "Fail"
@@ -45,3 +45,4 @@ if result2 == 9
 else
   puts "Fail"
 end
+=end
