@@ -8,4 +8,6 @@ def Romantodecimal(roman)
     "D"
     "M"
   }
+  Decimal = 0
+  before = 0
 end
